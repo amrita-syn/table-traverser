@@ -4,12 +4,13 @@
   "description": "",
   "main": "traverser.js",
   "scripts": {
-    "test": "http-server"
+    "test": "autoreload-server -r -l -w \"**/**.{html,css,js}\" ./ 8000"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "http-server": "^0.12.3"
+  "dependencies": {},
+  "devDependencies": {
+    "simple-autoreload-server": "^0.2.7"
   }
 }
